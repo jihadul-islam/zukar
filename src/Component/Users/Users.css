@@ -1,0 +1,45 @@
+img {
+  height: 150px;
+  width: 150px;
+border-radius: 150px;
+}
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 27%;
+  margin-bottom: 20px;
+  background-color:white;
+  margin: 20px;
+
+  border-radius: 5px;
+  
+ 
+  box-shadow: 5px 5px 20px gainsboro
+}
+.friendCard:hover {
+  box-shadow: 5px 5px 20px rgb(174, 191, 197);
+}
+.btn {
+  cursor: pointer;
+}
+.color{
+  background-color: #4267b2;
+  color: white;
+  height: 30px;
+  
+  border-radius: 5px;
+  
+}
+.remove-btn{
+  height: 30px;
+  background-color: ghostwhite;
+  
+  margin-left:2px;
+  border-radius: 5px;
+}
+.user-inf{
+  color: grey;
+}

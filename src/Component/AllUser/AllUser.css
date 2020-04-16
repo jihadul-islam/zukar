@@ -1,0 +1,17 @@
+.friendContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.allFriend {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-around;
+
+  
+}
+.friendList {
+  flex-basis: 100%;
+  
+  
+}
